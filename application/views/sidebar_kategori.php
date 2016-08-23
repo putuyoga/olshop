@@ -1,0 +1,1 @@
+<h3>Kategori</h3>	<ul class="list">	<!--?php var_dump($rows); ?-->	<?php if($rows !== NULL): ?>	<?php foreach($rows as $row): ?>	<li>		<a href="<?php echo base_url('index.php/kategori/lihat/' . $row['id']); ?>"><?php echo ucwords($row['nama']); ?></a>	</li>	<?php endforeach; ?>	<?php endif; ?>	

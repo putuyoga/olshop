@@ -1,0 +1,365 @@
+body, html {
+	background-color: #e8e8e8;
+	margin: 0;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #494949;
+}
+
+textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #494949;
+}
+
+input, select {
+	padding: 5px;
+	border: 1px solid #494949;
+}
+
+input[type="file"] {
+	padding: 0px;
+	border: 0;
+}
+
+h3 {
+	margin: 10px 10px 10px 10px;
+}
+
+ul {
+	margin: 0px 0px 0px 0px;
+}
+
+#left p {
+	margin: 10px;
+}
+
+#left h3 {
+	margin: 10px 10px 10px 10px;
+	border-bottom: 1px solid #494949;
+	color: #c4c4c4;
+}
+
+#header {
+	margin: 0px 0px 0px 0px;
+}
+
+table {
+	width: 100%;
+	border: 0;
+}
+
+td, tr, th{
+	padding: 6px;
+	font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+
+table.lists {	
+	background: #ffffff;
+	border-collapse: collapse;
+}
+
+table.lists td, table.lists tr, table.lists th {
+	border: 1px solid #494949;
+}
+
+
+th {
+	background-color: #5f5f5f;
+	color: #eaeaea;
+}
+
+#wrap {
+	height: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#left {
+	float: left;
+	
+	color: #ffffff;
+	background-color: #2a2a2a;
+	min-height: 100%;
+	height: 100%;
+}
+
+#right {
+	float: right;
+	
+	min-height: 100%;
+	height: 100%;
+}
+
+.imageBox {
+	margin-bottom: 20px;
+}
+
+.imageBox a img:hover {
+	opacity: 0.8;
+}
+
+.imageBigBox {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #989898;
+}
+
+.list {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.list li {
+	margin-left: 15px;
+	padding-left: 15px;
+	background-image: url(../images/bullet_abu.png);
+	background-repeat: no-repeat;
+	padding-top: 2px;
+	background-position: 0 .6em;
+	text-decoration: none;
+	line-height: 18px;
+}
+
+.list li:hover {
+	background-image: url(../images/bullet_red.png);
+}
+
+.list a {
+	color: #c4c4c4;
+	text-decoration: none;
+}
+
+.list a:hover {
+	color: #ffffff;
+}
+
+.harga {
+	font-size: 20px;
+	text-align: center;
+}
+
+.soldout_txt, .addtocart {
+	text-align: center;
+}
+.soldout_txt {
+	font-weight: bold;
+	color: #ff3636;
+	text-decoration: none;
+}
+
+.soldout_txt:hover {
+	color: #2a2a2a;
+}
+
+input.delete {
+	font-size: 100px;
+}
+
+
+.items {
+	height: 100px;
+	padding: 0px 0px 0xp 0px;
+}
+
+.items h3, .items p, .items_small h3, .items_small p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.items img {
+	width: 100px;
+	height: 100px;
+}
+
+.items_small {
+	height: 60px;
+}
+
+.items_small img {
+	width: 60px;
+	height: 60px;
+}
+
+.pageTitle h3 {
+	padding: 5px 0px 5px 0px;
+	margin: 0px;
+}
+
+.pageTitle {
+	border-top: 1px solid #989898;
+	
+}
+
+.itemsOpt {
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+}
+
+/**MENU **/
+#cssmenu ul {
+list-style-type:none;
+width:auto;
+position:relative;
+display:block;
+height:33px;
+
+	background-color: #2a2a2a;
+
+border:1px solid #000;
+margin:0;
+padding:0;
+margin-bottom: 10px;
+}
+
+#cssmenu li {
+display:block;
+float:left;
+margin:0;
+padding:0;
+}
+
+#cssmenu li a {
+float:left;
+color:#A79787;
+text-decoration:none;
+height:24px;
+padding:9px 15px 0;
+}
+
+#cssmenu li a:hover,
+#cssmenu .active {
+color:#fff;
+background-color:#A79787;
+
+}
+
+#cssmenu .active a {
+color:#fff;
+}
+
+#cssmenu li a:hover, 
+#cssmenu li.active {
+background-color:#fb2323;
+}
+
+.detailPemesanan p {
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+.imageBox.soldout {
+	background:url(../images/soldout.png) no-repeat top left;	
+}
+
+.imageBox.items.soldout {
+	background:url(../images/soldout_kecil.png) no-repeat top left;	
+}
+
+.soldout img {
+	opacity: 0.2;
+}
+
+.feedback_error {
+	background: #ffa0a0;
+	margin-bottom: 3px;
+}
+
+.feedback_sukses {
+	background: #a0dfff;
+	margin-bottom: 3px;
+}
+
+.feedback_info {
+	background: #faffa5;
+	margin-bottom: 3px;
+}
+
+.feedback_error .list, .feedback_sukses .list, .feedback_info .list {
+	padding: 8px;
+}
+
+.feedback_error p, .feedback_sukses p, .feedback_info p {
+	padding: 10px;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+.button {
+	color: #ffffff;
+	background: #505050;
+	padding: 5px;
+	cursor: hand;
+}
+.button a {
+	color: #ffffff;
+}
+
+.list_button {
+	color: #ffffff;
+	background: #505050;
+	text-align: center;
+}
+
+.list_button a, .list_button strong {
+	color: #ffffff;
+	background: #292929;
+	margin: 0px;
+	padding: 4px 7px 4px 7px;
+}
+
+.list_button strong {
+	background: #fb2323;
+}
+
+.list_button a:hover, .list_button strong:hover {
+	background: #fb2323;
+}
+
+.list_button div {
+	
+	padding: 4px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.button:hover {
+	background: #ea2f2f;
+}
+
+.box {
+	background: #ffffff;
+}
+
+.box p {
+	text-align: center;
+	padding: 10px;
+}
+
+.merah {
+	font-weight: bold;
+	color: #ae0f0f;
+}
+
+.biru {
+	font-weight: bold;
+	color: #0f69ae;
+}
+
+.hijau {
+	font-weight: bold;
+	color: #48a000;
+	
+}
